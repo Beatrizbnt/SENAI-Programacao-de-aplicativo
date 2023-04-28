@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="PR-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex-container {
+            background: dodgerblue;
+            display: flex;
+        }
+        .flex-container >div{
+            background: #f1f1f1;
+            margin: 10px;
+            padding: 20px;
+            font-size: 30px;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Criar um conteiner flexível</h1>
+
+    <div class="flex-container">
+        <div style="background-color:blueviolet;" >1</div>
+        <div style="background-color:blue;">2</div>
+        <div style="background-color:violet;">3</div>
+    </div>
+   
+       <div class="flex-container">
+        <div style="background-color:blueviolet;">4</div>
+        <div style="background-color:blue;">5</div>
+        <div style="background-color:violet;">6</div>
+    </div>
+    
+    <div class="flex-container">
+        <div style="background-color:blueviolet;">7</div>
+        <div style="background-color:blue;">8</div>
+        <div style="background-color:violet;">9</div>
+    </div>
+
+    <p>Um layuot flexivel deve ter um elemento pai com a prioridade
+    <em>display</em>defina como
+    <em>flex</em>
+    </p>    
+ 
+    <p>O elemento filho do recipiente flexível torna-se automaticamente itens flexíveis.
+    </p>
+     
+</body>
+</html>

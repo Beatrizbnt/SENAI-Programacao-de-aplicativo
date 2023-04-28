@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+    <style>
+        body{
+            align-items: center;
+        }
+
+        .principal{
+            background: rgb(17, 78, 139);
+            width: 750px;
+            height: 700px;
+            border: 1px solid blue;
+            margin: auto;
+        }
+
+         .cabecalho {
+           background-color: yellow;
+           width: 90%;
+           height: 150px;
+           margin: 30px;
+         }
+
+         .div2{
+           display: flex;
+           justify-content: space-between;
+           height: 50% ;
+           width: 90%;
+         }
+
+         .div2 >div{
+            background-color: yellow;
+            width: 45%;
+            height:100%;
+         }
+
+         .div3 {
+            width: 75%;
+            height: 100%;
+        }
+
+        .div4 {
+            display: flex;
+            width: 90%;
+            height: 500px;
+            margin: 30px;
+        }
+
+        .div5 {
+            width: 30%;
+            height: 90%;
+            background-color: yellow;
+        }
+
+        .div6 {
+            background-color: yellow;
+            width: 90%;
+            height: 150px;
+            margin-top: 50px;
+        }
+
+    </style>
+    
+</head>
+    
+<body>
+    <div class="principal">
+        <div class="cabecalho"></div>
+        <div class="div4">
+           <div class="div3">
+                <div class="div2">
+                    <div></div>
+                    <div></div>
+            </div>
+              <div class="div6"></div> 
+           </div>
+           <div class="div5"></div>
+        </div>
+    </div>
+</body>
+</html>

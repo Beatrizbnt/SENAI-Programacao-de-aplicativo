@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    
+    <form action="processo.php" method="post">
+        <p>Nome:</p>
+        <input type="text" name ="Nome" size="20" maxlength="50">
+
+        <p>Email:</p>
+        <input type="email" name="Email">
+
+        <p>Senha:</p>
+        <input type="password" name="Senha">
+
+        <p>Endereço:</p>
+        <input type="text" name="End" size="30">
+        
+        <p>UF:</p>
+        <select name="UF" size="3" id="">
+          <option value="PR">PR</option>
+          <option value="PR">SC</option>
+          <option value="RS">RS</option>
+        </select>
+
+        <p>Referência:</p>
+        <textarea name="Referencia" cols="30" rows="5" placeholder="Digite uma referência"></textarea>
+
+        <p>Selecione a bandeira do cartão:</p>
+        <input type="radio" name="Cartão" checked>Mastercard<br>
+        <input type="radio" name="Cartão">Visa<br>
+        <input type="radio" name="Cartão">Sodexo<br>
+
+        <p>Termos de uso:</p>
+        <input type="checkbox" name="Termo">
+        Li e aceito todos os termos de uso <br>
+        <input type="checkbox" name="Receber_email">
+        Aceito receber novidades e promoções por email.
+        <br><br>
+        <input type="submit" name="Enviar" value="Enviar"><br><br>
+        <input type="reset" name="Limpar" value="Limpar"><br>
+
+        <input type="hidden" name="CPF" value="verdadeiro">
+
+       </form>
+</body>
+</html>
