@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+    <style>
+         
+        .principal{
+            background: rgb(17, 78, 139);
+            width: 750px;
+            height: 630px;
+            border: 1px solid blue;
+            margin: auto;
+        }
+        
+        .div{
+            display:flex;
+            justify-content: space-between;
+            margin: 40px 40px 40px;
+            
+        }
+        .div>div{
+            width: 150px;
+            height: 150px;
+            background-color: yellow;
+            border: 1px solid black;
+        }
+
+        .div2{
+            display:flex;
+            margin: 40px 40px 40px;
+            
+        }
+        .div2>div{
+            width: 150px;
+            height: 150px;
+            background-color: yellow;
+            border: 1px solid black;
+            flex-grow: 1;
+            
+        }
+
+        .div3{
+            display:flex;
+            justify-content: space-between;
+            margin: 40px 40px 40px;
+            
+        }
+        .div3>div{
+            width: 150px;
+            height: 150px;
+            background-color: yellow;
+            border: 1px solid black;
+            justify-content: space-around;
+        }
+
+    </style>
+    
+</head>
+    
+<body>
+    <div class="principal">
+
+        <div class="div">
+            <div></div>
+            <div></div>
+            <div></div> 
+    </div>
+
+        <div class="div2">
+            <div></div>
+        </div>
+        
+        <div class="div3">
+             <div style="width: 420px;"></div>
+             <div></div>
+        </div>
+
+    </div>
+</body>
+</html>
